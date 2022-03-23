@@ -1,0 +1,11 @@
+server:
+  port: 8083
+
+topic:
+  name: cars
+
+spring:
+  kafka:
+    bootstrap-servers: localhost:9092
+    group-id: appCar
+
